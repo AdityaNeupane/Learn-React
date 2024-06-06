@@ -1,28 +1,39 @@
 /* Basic styles */
 body {
-  font-family: Arial, sans-serif;
+  font-family:  'Courier New', Courier, monospace;
   margin: 0;
   padding: 0;
 }
 
 /* Navbar styles */
 .navbar {
-  background-color: #333;
+  background-color: #219ebc;
   padding: 1rem 2rem;
-  color: white;
+  color: #fefae0;
 }
 
 .navbar-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+  gap: 450px;
 }
 
 .navbar-brand {
   font-size: 1.5rem;
   text-decoration: none;
-  color: white;
+  color: #fefae0;
+  padding: 0.5rem 1rem;
+  font-weight: bolder;
 }
+
+.navbar-brand:hover {
+ background-color: #fefae0;
+ color: #283618;
+ border-radius: 15px;
+}
+
+
 
 .navbar-menu {
   display: flex;
@@ -31,13 +42,16 @@ body {
 
 .navbar-item {
   text-decoration: none;
-  color: white;
+  color: #fefae0;
   padding: 0.5rem 1rem;
   transition: background-color 0.3s;
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 
 .navbar-item:hover {
-  background-color: #555;
+  background-color: #fefae0;
+  color: #283618;
 }
 
 /* Responsive styles */

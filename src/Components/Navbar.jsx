@@ -7,13 +7,13 @@ const Navbar = () => {
       <nav className="navbar">
       <div className="navbar-container">
         <a href="#" className="navbar-brand">
-          MyBrand
+          TechSphere
         </a>
         <div className="navbar-menu">
         <Link to="/home" className="navbar-item">Home</Link>
-          <Link to="/about" className="navbar-item">About</Link>
+          <Link to="/about" className="navbar-item">About-Us</Link>
           <Link to="/services" className="navbar-item">Services</Link>
-          <Link to="/contact" className="navbar-item">Contact</Link>
+          <Link to="/contact" className="navbar-item">Contact-Us</Link>
         </div>
         <div className="navbar-toggle">
           <span className="navbar-toggle-icon"></span>
