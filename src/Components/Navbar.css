@@ -1,35 +1,37 @@
 /* Basic styles */
 body {
-  font-family:  'Courier New', Courier, monospace;
+ 
   margin: 0;
   padding: 0;
 }
 
+
 /* Navbar styles */
 .navbar {
-  background-color: #219ebc;
+  background-color: #0C0C0C;
   padding: 1rem 2rem;
-  color: #fefae0;
+  color: #F0F8FF;
+  font-family: 'Times New Roman';
 }
 
 .navbar-container {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  gap: 450px;
+  gap: 400px;
 }
 
 .navbar-brand {
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-decoration: none;
-  color: #fefae0;
+  color: #F0F8FF;
   padding: 0.5rem 1rem;
   font-weight: bolder;
 }
 
 .navbar-brand:hover {
- background-color: #fefae0;
- color: #283618;
+ background-color: #F0F8FF;
+ color: #354f52;
  border-radius: 15px;
 }
 
@@ -42,7 +44,7 @@ body {
 
 .navbar-item {
   text-decoration: none;
-  color: #fefae0;
+  color: #F0F8FF;
   padding: 0.5rem 1rem;
   transition: background-color 0.3s;
   font-size: 1.2rem;
@@ -50,8 +52,9 @@ body {
 }
 
 .navbar-item:hover {
-  background-color: #fefae0;
-  color: #283618;
+  background-color: #F0F8FF;
+  color: #354f52;
+  border-radius: 10px;
 }
 
 /* Responsive styles */
@@ -72,7 +75,7 @@ body {
   content: '';
   width: 25px;
   height: 2px;
-  background-color: white;
+  background-color: #fefae0;
   position: absolute;
   left: 0;
 }

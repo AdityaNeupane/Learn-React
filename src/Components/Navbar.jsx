@@ -7,7 +7,7 @@ const Navbar = () => {
       <nav className="navbar">
       <div className="navbar-container">
         <a href="#" className="navbar-brand">
-          TechSphere
+          LOGO
         </a>
         <div className="navbar-menu">
         <Link to="/home" className="navbar-item">Home</Link>

@@ -1,11 +1,21 @@
 import React from 'react'
-import Navbar from '../Components/Navbar'
 import './Home.css'
-
+import { useNavigate } from 'react-router-dom'
 const Home = () => {
+
+    const navigate = useNavigate();
+
+    const pathao = () => {
+        navigate('/')
+    }
+
+
+
   return (
     <>
     
+    <button onClick={pathao} className='btn'> Go to Main Page</button>
+     
     <div className="homepage">
       <header className="hero-section">
         <div className="hero-content">
