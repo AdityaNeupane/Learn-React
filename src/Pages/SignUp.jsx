@@ -1,6 +1,6 @@
 import React from 'react'
 import { ArrowRight } from 'lucide-react'
-import './SignUp.css'
+ 
 export function SignUp() {
   return (
     <section className="rounded-md bg-black/70 p-2">
