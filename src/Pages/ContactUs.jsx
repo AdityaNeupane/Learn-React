@@ -1,10 +1,26 @@
 import React from 'react'
-import './ContactUs.css'
+// import './ContactUs.css'
+import { Link, Outlet } from 'react-router-dom'
 const ContactUs = () => {
   return (
     <>
+    <div>i am contact</div>
+    <br></br>
+    <h1>
+      Contact
+    </h1>
+   <br></br>
+    <h1><Link to="user/1">user1</Link></h1>
+    <h1><Link to="user/2">user2</Link></h1>
+    <h1><Link to="user/3">user3</Link></h1>
+    <h1><Link to="user/4">user4</Link></h1>
+    <h1><Link to="user/5">user5</Link></h1>
     
-    <div className="contact-us">
+    <Outlet/>
+
+
+  
+    {/* <div className="contact-us">
       <section className="contact-intro">
         <h1>Contact Us</h1>
         <p>We would love to hear from you! Reach out to us for any queries or assistance.</p>
@@ -36,8 +52,8 @@ const ContactUs = () => {
           </form>
         </div>
       </section>
-    </div>
-  
+    </div> */}
+   
 
     </>
   )
