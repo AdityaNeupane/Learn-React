@@ -16,20 +16,19 @@ export default UseEffecthook
 
 
 
-
-
-
 // for alert messages 
 
-const UseEffecthook = () => {
+// const UseEffecthook = () => {
 
-    useEffect( () => {
-        alert("hello");
-    }, []);
+//     useEffect( () => {
+//         alert("hello");
+//     }, []);
 
-    return (
-        <>
-        <h1>use effect hook</h1>
-        </>
-    )
-    export default UseEffecthook
+//     return (
+//         <>
+//         <h1>use effect hook</h1>
+//         </>
+//     )
+//   }
+//     export default UseEffecthook
+    

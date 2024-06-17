@@ -14,6 +14,7 @@ import Pant from './Pages/Pant'
 import Userdetail from './Pages/Userdetail'
 import Usestatehook from './Pages/Usestatehook'
 import UseEffecthook from './Pages/UseEffecthook'
+import UseStateObj from './Components/UseStateObj'
 function App() {
    
 
@@ -56,10 +57,15 @@ function App() {
      <Usestatehook/>
 
      <br></br>
-
+     
      <UseEffecthook/>
+
+     <br></br>
+
+     <UseStateObj/>
     </>
   )
 }
+ 
 
 export default App

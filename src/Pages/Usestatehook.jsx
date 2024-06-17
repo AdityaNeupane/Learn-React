@@ -56,38 +56,38 @@ export default Usestatehook
 
 
 
-const Usestatehook = () => {
-    const myarray = useState("bijay");
+// const Usestatehook = () => {
+//     const myarray = useState("bijay");
+    
+//     return (
+//         <>
+//         <h1>use state hook</h1>
+//         <h1>my name is (myarray[0])</h1>
+//         <button onClick={() => myarray[1]("aditya")}>
+//             click me
+//             </button>
+//         </>
+//     )
+// }
 
-    return (
-        <>
-        <h1>use state hook</h1>
-        <h1>my name is (myarray[0])</h1>
-        <button onClick={() => myarray[1]("aditya")}>
-            click me
-            </button>
-        </>
-    )
-}
-
-export default Usestatehook
-
-
+// export default Usestatehook
 
 
-const Usestatehook = () => {
 
-    const [myname, setname] = useState("bijay");
 
-    const changemyname = () => {
-        setname("aditya")
-    }
+// const Usestatehook = () => {
 
-    return (
-        <>
-        <h1>use state hook</h1>
-        <h1>my name is {myname}</h1>
-        <button onClick={changemyname}>click me</button>
-        </>
-    )
-    export default Usestatehook
+//     const [myname, setname] = useState("bijay");
+
+//     const changemyname = () => {
+//         setname("aditya")
+//     }
+
+//     return (
+//         <>
+//         <h1>use state hook</h1>
+//         <h1>my name is {myname}</h1>
+//         <button onClick={changemyname}>click me</button>
+//         </>
+//     )
+//     export default Usestatehook
