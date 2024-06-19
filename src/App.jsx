@@ -16,6 +16,14 @@ import Usestatehook from './Pages/Usestatehook'
 import UseEffecthook from './Pages/UseEffecthook'
 import UseStateObj from './Components/UseStateObj'
 import OnchangeEvent from './Pages/OnchangeEvent'
+import FetchData from './Pages/FetchData'
+import { createContext } from 'react'
+import Neupane from './Pages/Neupane'
+
+
+
+
+export const paisadeu = createContext();
 function App() {
    
 
@@ -63,10 +71,23 @@ function App() {
      <br></br>
 
      <UseStateObj/>
-
+     
      <br></br>
       <br></br><br></br>
      <OnchangeEvent/>
+
+     <br></br>
+     <FetchData/>
+      
+       <br></br>
+
+       <paisadeu.Provider value={"10000 rs"}>
+        <Neupane/>
+       </paisadeu.Provider>
+
+
+
+
     </>
   )
 }
