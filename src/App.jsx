@@ -8,13 +8,14 @@ import Products from './Pages/Products'
 import { Route, Routes } from 'react-router-dom'
 // import { Link } from 'react-router-dom'
 import PageNotFound from './Pages/PageNotFound'
-import { SignUp } from './Pages/SignUp'
+// import { SignUp } from './Pages/SignUp'
 import Tshirt from './Pages/Tshirt'
 import Pant from './Pages/Pant'
 import Userdetail from './Pages/Userdetail'
 import Usestatehook from './Pages/Usestatehook'
 import UseEffecthook from './Pages/UseEffecthook'
 import UseStateObj from './Components/UseStateObj'
+import OnchangeEvent from './Pages/OnchangeEvent'
 function App() {
    
 
@@ -23,7 +24,7 @@ function App() {
        <Navbar/>
        
      <Routes>
-      <Route path='/' element={<SignUp/>}/>
+      {/* <Route path='/' element={<SignUp/>}/> */}
       <Route path='/home' element={<Home/>}/>
       <Route path='/about' element={<AboutUs/>}/>
       <Route path='/services' element={<Services/>}/>
@@ -49,8 +50,7 @@ function App() {
      </Routes>
      
 
-     <br>
-     </br>
+     <br></br>
      <br></br>
      <br></br>
 
@@ -63,6 +63,10 @@ function App() {
      <br></br>
 
      <UseStateObj/>
+
+     <br></br>
+      <br></br><br></br>
+     <OnchangeEvent/>
     </>
   )
 }
